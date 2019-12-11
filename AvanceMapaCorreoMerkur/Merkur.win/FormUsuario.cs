@@ -20,8 +20,8 @@ namespace Merkur.win
             InitializeComponent();
             _seguridadBL = new SeguridadBL();
 
-            //listaUsuariosBindingSource.DataSource =
-            //    _seguridadBL.ObtenerUsuarios();
+            listaUsuariosBindingSource.DataSource =
+                _seguridadBL.ObtenerUsuarios();
         }
 
         private void FormUsuario_Load(object sender, EventArgs e)

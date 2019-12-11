@@ -108,11 +108,7 @@ namespace Merkur.BL
                 resultado3.Mensaje = "Seleccione un Cliente";
                 resultado3.Exitoso = false;
             }
-            if (factura.MunicipioId == 0)
-            {
-                resultado3.Mensaje = "Seleccione un Municipio";
-                resultado3.Exitoso = false;
-            }
+           
             if (factura.DepartamentoId == 0)
             {
                 resultado3.Mensaje = "Seleccione un Departamento";
@@ -191,7 +187,7 @@ namespace Merkur.BL
         public int DepartamentoId { get; set; }
         public Departamento Departamento { get; set; }
         public int MunicipioId { get; set; }
-        public Municipio Municipio { get; set; }
+        
         public BindingList<FacturasDetalle> FacturaDetalle { get; set; }
         public double SubTotal { get; set; }
         public double IVS { get; set; }

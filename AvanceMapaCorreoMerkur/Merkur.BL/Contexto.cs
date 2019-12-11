@@ -29,7 +29,7 @@ namespace Merkur.BL
         public DbSet<Cliente> Cliente { get; set; }
         public DbSet<facturas1> Facturas { get; set; }
         public DbSet<Departamento> Departamento { get; set; }
-        public DbSet<Municipio> Municipio { get; set; }
+       
         
 
 

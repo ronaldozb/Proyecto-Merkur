@@ -81,7 +81,6 @@
     <Compile Include="DatosdeIncio.cs" />
     <Compile Include="DepartamentoBL.cs" />
     <Compile Include="FacturaBL.cs" />
-    <Compile Include="MunicipioBL.cs" />
     <Compile Include="ProductosBL.cs" />
     <Compile Include="SeguridadBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

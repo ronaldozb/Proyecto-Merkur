@@ -17,7 +17,7 @@ namespace Merkur.win
         ClientesBL _clientesBL;
         ProductosBL _productoBL;
         DepartamentoBL _departamentoBL;
-        MunicipioBL _municipioBL;
+        
         public Facturas()
         {
             InitializeComponent();
@@ -33,8 +33,7 @@ namespace Merkur.win
             _departamentoBL = new DepartamentoBL();
             listadeDepartamentosBindingSource.DataSource = _departamentoBL.ObtenerDepartamento();
 
-            _municipioBL = new MunicipioBL();
-            listadeMunicipiosBindingSource.DataSource = _municipioBL.ObtenerMunicipio();
+            
 
             
         }
